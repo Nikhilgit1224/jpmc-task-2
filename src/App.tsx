@@ -8,7 +8,7 @@ import './App.css';
  */
 interface IState {
   data: ServerRespond[],
-  showgraph: boolean,
+  showGraph: boolean,
 }
 
 /**
@@ -52,7 +52,8 @@ class App extends Component<{}, IState> {
       if(x>1000){
         clearInterval(interval);
       }
-  },100
+  },100);
+  }
                                  }
 
   /**
